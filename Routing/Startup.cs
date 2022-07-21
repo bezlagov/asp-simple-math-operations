@@ -46,7 +46,7 @@ namespace Routing
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{x}/{y}");
+                    pattern: "{controller=Home}/{action=Index}/{x:int}/{y:int}");
                 endpoints.MapControllerRoute(
                    name: "default",
                    pattern: "{controller=Home}/{action=Index}");
